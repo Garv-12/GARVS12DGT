@@ -25,14 +25,19 @@ body {
     background-color: #ae4040;
 }
 
-.Search{
+.search{
     width: max-content;
     display: flex;
     align-items: center;
     padding: 14px;
     border-radius: 28px;
     background: #f6f6f6;
+    width: 920px;
+    transition: box-shadow 0.25s;
+}
 
+.search:focus-within {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
 }
 
 .search-input{
@@ -43,4 +48,5 @@ body {
     outline: none;
     border: none;
     background: transparent;
+    flex: 1;
 }

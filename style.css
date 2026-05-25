@@ -31,6 +31,17 @@ display: inline-block;
 margin-right: 20px;
 }
 
+a{
+text-decoration: none;
+color: #000000;
+}
+
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
 
 h1{
 color:red;

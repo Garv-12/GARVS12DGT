@@ -2,7 +2,7 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box:
-font-family: 'Glacial Indifference';
+font-family: "Finlandica Headline";
 text-decoration: none;
 list-style: none;
 }
@@ -88,11 +88,26 @@ body {
 
 .search-input{
     font-size: 22px;
-    font-family: 'Glacial-Indifference';
+    font-family: 'Finlandica Headline';
     color: #333333;
     margin-left: 14px;
     outline: none;
     border: none;
     background: transparent;
     flex: 1;
+}
+.col-4{
+flex-basis: 25%;
+padding: 10px;
+min-width: 20px;
+margin-bottom: 5px;
+}
+
+.col-4 img{
+width: 49%;
+border: 3px solid black;
+}
+
+body{
+font-family: "Finlandica Headline"
 }

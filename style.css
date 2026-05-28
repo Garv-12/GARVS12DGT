@@ -143,3 +143,14 @@ bottom: 0;
 left: 50%;
 transform: translateX(-50%)
 }
+
+/*-----------Featured Products-----------*/
+.row-2{
+justify-content: space-between;
+margin: 100px auto 50px;
+}
+
+select{
+border: 1px solid #ff523b;
+padding: 5px;
+}

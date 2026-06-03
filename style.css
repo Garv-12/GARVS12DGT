@@ -144,13 +144,14 @@ left: 50%;
 transform: translateX(-50%)
 }
 
-/*-----------Featured Products-----------*/
-.row-2{
-justify-content: space-between;
-margin: 100px auto 50px;
-}
-
-select{
-border: 1px solid #ff523b;
-padding: 5px;
+.col-3 button{
+border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }

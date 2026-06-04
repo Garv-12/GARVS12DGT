@@ -11,7 +11,10 @@
 </head>
 <body>
 
-
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Success.</strong> Your Product Has Been Added To Cart
+</div>
 
 
 
@@ -35,6 +38,8 @@
     <img src="image/2b5.png" alt="100%">
     <h4>2B5 Book</h4>
     <p>$1.50</p>
+       <p><button>Buy Now</button></p>
+      <p><button>Add To Cart</button></p>
     </div>
   </div>
 </div>
@@ -82,26 +87,46 @@
 
 </div>
 <div class="div8">
-
-  <div class="container">
-<div class="navbar">
-</div>
-  <nav>
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Pens</a></li>
-      <li><a href="">Books</a></li>
-      <li><a href="">Cart</a></li>
-
-    </ul>
-  </nav>
-
-
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#pens">Pens</a>
+    <a href="#books">Books</a>
+    <a href="#custom">Calculater</a>
+    <a href="#support">Refillers</a>
+    <a href="#tools">Tools</a>
+  </div>
 </div>
 </div>
 
+  <script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  const input = document.getElementById("myInput");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+
 
 </div>
+
+
+
+
 <div class="div9">
 
 

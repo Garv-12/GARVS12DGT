@@ -207,17 +207,18 @@ border: 3px solid black;
 /* Dropdown Button */
 .dropbtn {
   background-color: #ffbd59;
-  color: white;
+  color: Black;
   padding: 20px;
   font-size: 16px;
   border: 3px solid black;
   cursor: pointer;
   border-radius: 25px;
+  width: 100%;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
+  background-color: #ffbd59;
 }
 
 /* The search field */
@@ -239,6 +240,7 @@ border: 3px solid black;
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 30%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -264,5 +266,6 @@ border: 3px solid black;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
 
 

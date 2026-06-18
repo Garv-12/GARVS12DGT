@@ -30,6 +30,7 @@
 
 </div>
 <div class="div2">
+  <div class="small-container-2"></div>
 <div class="small-container">
 
   <h2 class="title">Featured Product</h2>
@@ -37,7 +38,7 @@
     <div class="col-4">
     <img src="image/2b5.png" alt="100%">
     <h4>2B5 Book</h4>
-    <p>$1.50</p>
+    <p>$5.00</p>
        <p><button>Buy Now</button></p>
       <p><button>Add To Cart</button></p>
     </div>
@@ -50,7 +51,7 @@
     <div class="col-3">
     <img src="image/1J5-book.jpg" alt="110%">
     <h4>1J5 Maths Book</h4>
-    <p>$1.50</p>
+    <p>$5.00</p>
       <p><button>Buy Now</button></p>
       <p><button>Add To Cart</button></p>
     </div>
@@ -119,6 +120,35 @@ function filterFunction() {
   }
 }
 </script>
+  <div class="sort-dropdown">
+  <button onclick="myFunction()" class="dropbtn">Sort</button>
+  <div id="mysortDropdown" class="dropdown-content">
+    <a href="#pens">Price</a>
+    <a href="#books">Popularity</a>
+    <a href="#custom">A-Z</a>
+    <a href="#support">Date</a>
+  </div>
+ </div>
+    <script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  const input = document.getElementById("myInput");
+  const filter = input.value.toUpperCase();
+  const div = document.getElementById("myDropdown");
+  const a = div.getElementsByTagName("a");
+  for (let i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+    </script>
 
 
 
@@ -128,6 +158,7 @@ function filterFunction() {
 
 
 <div class="div9">
+
 
 
 </div>

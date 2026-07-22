@@ -266,8 +266,12 @@ border: 3px solid black;
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-.btn2
-align
+.btn2{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
 
 
 

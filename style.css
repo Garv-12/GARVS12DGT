@@ -148,7 +148,7 @@ border: 3px solid black;
   outline: 2px;
   padding: 12px;
   color: black;
-  background-color: #ffbd59;
+  background-color: #ffde59;
   text-align: center;
   cursor: pointer;
   width: 70%;
@@ -161,7 +161,7 @@ border: 3px solid black;
   outline: 0px;
   padding: 12px;
   color: black;
-  background-color: #ffbd59;
+  background-color: #ffde59;
   text-align: center;
   cursor: pointer;
   width: 20%;
@@ -265,6 +265,9 @@ border: 3px solid black;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+.btn2
+align
 
 
 

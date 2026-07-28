@@ -115,7 +115,7 @@ margin-bottom: 5px;
 }
 
 .col-3 img{
-width: 100%;
+width: 120%;
 border: 3px solid black;
 }
 
@@ -273,6 +273,30 @@ left: 10px;
 border: 10px solid-black;
 }
 
+.col-5{
+margin-left: 20px;
+flex-basis: 25%;
+min-width: 25px;
+margin-bottom: 5px;
+}
+
+.col-5 img{
+width: 130%;
+border: 3px solid black;
+}
+
+.col-5 button{
+border: 3px solid black;
+  outline: 2px;
+  padding: 12px;
+  color: black;
+  background-color: #ffde59;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+  border-radius: 25px;
+}
 
 
 

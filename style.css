@@ -2,12 +2,21 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box:
-font-family: "Glacial Indifference";
+font-family: "Fredoka";
 text-decoration: none;
 list-style: none;
 }
 :root{
   --bg-color: #ffffff;
+}
+
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 60;
 }
 
 .navbar{
@@ -44,7 +53,7 @@ padding-right: 25px;
 }
 
 h1{
-color:red;
+color:Yellow;
 }
 
 
@@ -88,7 +97,7 @@ body {
 
 .search-input{
     font-size: 22px;
-    font-family: 'Glacial Indifference;
+    font-family: 'Fredoka;
     margin-left: 14px;
     outline: none;
     border: none;
@@ -120,7 +129,7 @@ border: 3px solid black;
 }
 
 body{
-font-family: "Glacial Indifference"
+font-family: "Fredoka"
 }
 
 .title{
@@ -327,3 +336,6 @@ border: 3px solid black;
 padding: 2px;
 }
 
+body{
+color: white;
+}
